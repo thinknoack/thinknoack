@@ -6,15 +6,124 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Mar 2015 00:04:18 -0700</pubDate>
-    <lastBuildDate>Sun, 15 Mar 2015 00:04:18 -0700</lastBuildDate>
+    <pubDate>Mon, 16 Mar 2015 19:31:27 -0700</pubDate>
+    <lastBuildDate>Mon, 16 Mar 2015 19:31:27 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>WP Backbone</title>
+        <description>&lt;p&gt;I wanted to use Wordpress as an API and provide data via JSON to a frontend Backbone client. This is the outcome. &lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Jun 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/wordpress-to-backbone</link>
+        <guid isPermaLink="true">http://localhost:4000/wordpress-to-backbone</guid>
+        
+        <category>all</category>
+        
+        <category>LESS</category>
+        
+        <category>grunt</category>
+        
+        <category>ux/ui</category>
+        
+        <category>bootstrap</category>
+        
+        <category>backbone</category>
+        
+        <category>node</category>
+        
+        <category>fed</category>
+        
+        <category>dev</category>
+        
+        <category>design</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>ShotWatch</title>
+        <description>&lt;p&gt;A simple app using data provided by the NBA to tack shots on the court.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Jun 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/shotwatch</link>
+        <guid isPermaLink="true">http://localhost:4000/shotwatch</guid>
+        
+        <category>all</category>
+        
+        <category>LESS</category>
+        
+        <category>grunt</category>
+        
+        <category>ux/ui</category>
+        
+        <category>bootstrap</category>
+        
+        <category>backbone</category>
+        
+        <category>node</category>
+        
+        <category>fed</category>
+        
+        <category>dev</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+      </item>
+    
+      <item>
+        <title>RatherFit</title>
+        <description>&lt;p&gt;I took a class on Backbone and Node, this was my final project.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/ratherfit</link>
+        <guid isPermaLink="true">http://localhost:4000/ratherfit</guid>
+        
+        <category>all</category>
+        
+        <category>LESS</category>
+        
+        <category>grunt</category>
+        
+        <category>ux/ui</category>
+        
+        <category>bootstrap</category>
+        
+        <category>backbone</category>
+        
+        <category>node</category>
+        
+        <category>fed</category>
+        
+        <category>dev</category>
+        
+        <category>responsive</category>
+        
+        <category>design</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+        <category>design</category>
+        
+      </item>
     
       <item>
         <title>Way to Go</title>
         <description>&lt;p&gt;Way to Go is a regional partnership between the Denver Regional Council of Governments (DRCOG) and a dedicated group of Transportation Management Associations (TMAs). They work together to reduce traffic congestion, improve air quality, and make life better for the residents of Denver.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
+        <pubDate>Sat, 03 May 2014 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/way-to-go</link>
         <guid isPermaLink="true">http://localhost:4000/way-to-go</guid>
         
@@ -46,75 +155,145 @@
       </item>
     
       <item>
-        <title>White Paper</title>
-        <description>&lt;p&gt;ADM (Advanced Data Management) regularly conducts surveys and online live interactions with thousands of physicians nationwide. They gather unique, actionable market research insights from physicians for their clients in the pharmaceutical/biotech, medical device, healthcare IT (focusing on EHR), and practice management services&lt;/p&gt;
+        <title>Start 2 farm</title>
+        <description>&lt;p&gt;A site for USDA to help promote farming. Offering resources to new, experienced, and minority framers.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/way-to-go</link>
-        <guid isPermaLink="true">http://localhost:4000/way-to-go</guid>
+        <pubDate>Sat, 03 May 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/start2farm-usda</link>
+        <guid isPermaLink="true">http://localhost:4000/start2farm-usda</guid>
         
         <category>all</category>
         
-        <category>adobe</category>
+        <category>grunt</category>
+        
+        <category>drupal</category>
+        
+        <category>bootstrap</category>
+        
+        <category>LESS</category>
+        
+        <category>responsive</category>
+        
+        <category>ux/ui</category>
+        
+        <category>fed</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+      </item>
+    
+      <item>
+        <title>Drcog</title>
+        <description>&lt;p&gt;For nearly sixty years, elected officials have come together to address challenges and to plan for an excellent region. Members establish guidelines, set policy and allocate funding in the areas of transportation and personal mobility, growth and development and aging and disability resources.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 May 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/drcog</link>
+        <guid isPermaLink="true">http://localhost:4000/drcog</guid>
+        
+        <category>all</category>
+        
+        <category>grunt</category>
+        
+        <category>drupal</category>
+        
+        <category>bootstrap</category>
+        
+        <category>LESS</category>
         
         <category>design</category>
         
+        <category>responsive</category>
+        
+        <category>ux/ui</category>
+        
+        <category>fed</category>
+        
         
         <category>all</category>
+        
+        <category>site</category>
         
         <category>design</category>
         
       </item>
     
       <item>
-        <title>Untitled Designs</title>
-        <description>&lt;p&gt;Fostering scientific collaboration for the benefit of California’s natural spaces CALCC is federally-funded conservation collaborative, and they needed a modern, easy-to-update website to better serve their community-based efforts.&lt;/p&gt;
+        <title>Climate.gov</title>
+        <description>&lt;p&gt;NOAA’s climate blog built on Drupal.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/untitled-designs</link>
-        <guid isPermaLink="true">http://localhost:4000/untitled-designs</guid>
+        <pubDate>Thu, 01 May 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/climate-noaa</link>
+        <guid isPermaLink="true">http://localhost:4000/climate-noaa</guid>
+        
+        <category>all</category>
+        
+        <category>drupal</category>
+        
+        <category>fed</category>
+        
         
         <category>all</category>
         
         <category>site</category>
+        
+      </item>
+    
+      <item>
+        <title>Bike to Work</title>
+        <description>&lt;p&gt;Bike to Work Day is a site for coordinating 20,000+ bikers, routes, and meet-ups for the Denver/Boulder area.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 May 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/bike-to-work</link>
+        <guid isPermaLink="true">http://localhost:4000/bike-to-work</guid>
+        
+        <category>all</category>
+        
+        <category>grunt</category>
+        
+        <category>drupal</category>
+        
+        <category>bootstrap</category>
+        
+        <category>LESS</category>
+        
+        <category>responsive</category>
+        
+        <category>ux/ui</category>
+        
+        <category>fed</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Synapse</title>
+        <description>&lt;p&gt;Synapse works with the world’s leading companies to create products and experiences that change the way we live.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 30 Apr 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/stepping-stones</link>
+        <guid isPermaLink="true">http://localhost:4000/stepping-stones</guid>
+        
+        <category>all</category>
+        
+        <category>fed</category>
+        
+        <category>theme</category>
         
         <category>wordpress</category>
         
-        <category>bootstrap</category>
-        
-        
-        <category>all</category>
-        
-        <category>site</category>
-        
-      </item>
-    
-      <item>
-        <title>SAFECOM</title>
-        <description>&lt;p&gt;The SAFECOM form for the Department of Interior isn’t just a form. It is an Angular app that utilizes offline storage, legacy data, and allows for in the field reporting for the Department of Interior agencies and the US Forest Service.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/safecom</link>
-        <guid isPermaLink="true">http://localhost:4000/safecom</guid>
-        
-        <category>all</category>
-        
-        <category>grunt</category>
-        
-        <category>angular</category>
-        
-        <category>bootstrap</category>
-        
-        <category>LESS</category>
-        
         <category>design</category>
-        
-        <category>responsive</category>
         
         <category>ux/ui</category>
         
-        <category>fed</category>
-        
         
         <category>all</category>
         
@@ -125,130 +304,31 @@
       </item>
     
       <item>
-        <title>CALCC</title>
-        <description>&lt;p&gt;Fostering scientific collaboration for the benefit of California’s natural spaces CALCC is federally-funded conservation collaborative, and they needed a modern, easy-to-update website to better serve their community-based efforts.&lt;/p&gt;
+        <title>Mezimbite</title>
+        <description>&lt;p&gt;Allan Schwarts works in Africa to help local communities create sustainable business without destroying the environment. &lt;/p&gt;
 </description>
-        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/california-landscape-conservation-coop</link>
-        <guid isPermaLink="true">http://localhost:4000/california-landscape-conservation-coop</guid>
-        
-        <category>all</category>
-        
-        <category>site</category>
-        
-        <category>zen</category>
-        
-        <category>drupal</category>
-        
-        <category>compass</category>
-        
-        <category>fed</category>
-        
-        <category>responsive</category>
-        
-        <category>SASS</category>
-        
-        
-        <category>all</category>
-        
-        <category>site</category>
-        
-      </item>
-    
-      <item>
-        <title>Bonjor Bakery</title>
-        <description>&lt;p&gt;I was Hired by Bon Jour Bakery to create a label and brochure for their new product. With the charm of Parisian bakeries in mind, I captured the essence of this radically new product for this start up company. Complying with restrictions and requirements for this company to launch to vendors such as Whole Foods and Trader Joe’s, I worked with Bon Jour to create a label fit for the product and its message.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/bonjor-bakery</link>
-        <guid isPermaLink="true">http://localhost:4000/bonjor-bakery</guid>
-        
-        <category>all</category>
-        
-        <category>design</category>
-        
-        
-        <category>all</category>
-        
-        <category>design</category>
-        
-      </item>
-    
-      <item>
-        <title>Blue Tic</title>
-        <description>&lt;p&gt;Fostering scientific collaboration for the benefit of California’s natural spaces CALCC is federally-funded conservation collaborative, and they needed a modern, easy-to-update website to better serve their community-based efforts.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/blue-tic</link>
-        <guid isPermaLink="true">http://localhost:4000/blue-tic</guid>
-        
-        <category>all</category>
-        
-        <category>design</category>
-        
-        
-        <category>all</category>
-        
-        <category>design</category>
-        
-      </item>
-    
-      <item>
-        <title>Blackberry Brigade</title>
-        <description>&lt;p&gt;With the power of a video library, the company can show clips of their tutorials and entice its members to purchase a wide range of tutorials and lessons. Current offerings include video conferences, personal one-on-one training, and expansive business lectures.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/the-blackberry-brigade</link>
-        <guid isPermaLink="true">http://localhost:4000/the-blackberry-brigade</guid>
+        <pubDate>Tue, 29 Apr 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/mezimbite</link>
+        <guid isPermaLink="true">http://localhost:4000/mezimbite</guid>
         
         <category>all</category>
         
         <category>fed</category>
         
-        <category>grid960</category>
-        
-        
-        <category>all</category>
-        
-        <category>site</category>
-        
-      </item>
-    
-      <item>
-        <title>Big Dot Agency</title>
-        <description>&lt;p&gt;Big Dot Agency is an event agency in Seattle, WA. I was asked to take a design and place it into HTML. They wanted visitors to be able to view their clients websites while having a link back to BigDotAgency[dot]com show up in the top of the clients page.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/big-dot</link>
-        <guid isPermaLink="true">http://localhost:4000/big-dot</guid>
-        
-        <category>all</category>
-        
-        <category>blueprint.css</category>
-        
-        <category>fed</category>
-        
-        
-        <category>all</category>
-        
-        <category>site</category>
-        
-      </item>
-    
-      <item>
-        <title>A Poster</title>
-        <description>&lt;p&gt;A local Portland, OR music venue put on a benefit for Japan during the relief fund-raising efforts. I was asked to create a custom poster for the event. Using a found photo, I tried to capture the elegance which I equate with Japan and its intricate culture.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/benefit-for-japan</link>
-        <guid isPermaLink="true">http://localhost:4000/benefit-for-japan</guid>
-        
-        <category>all</category>
+        <category>wordpress</category>
         
         <category>design</category>
         
+        <category>dev</category>
+        
+        <category>ux-ui</category>
+        
+        <category>bootstrap</category>
+        
         
         <category>all</category>
+        
+        <category>site</category>
         
         <category>design</category>
         
