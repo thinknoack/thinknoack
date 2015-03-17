@@ -9482,7 +9482,6 @@ div.no-pad {
   background-size: cover;
   -o-background-size: cover;
   overflow: hidden;
-  position: relative;
 }
 .intro .intro-body,
 .postIntro .intro-body {
