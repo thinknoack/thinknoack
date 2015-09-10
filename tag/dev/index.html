@@ -4,43 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <title>Thinknoack</title>
     <meta name="description" content="My Name is Gregory Noack, I am a Frontend Developer, and this is my portfolio.
 ">
-    
     <link rel="canonical" href="http://localhost:4000/tag/dev/">
-
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=2">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?v=2">
-    <link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=2" sizes="192x192">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=2?v=2" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png?v=2" sizes="96x96">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=2" sizes="16x16">
-    <link rel="icon" type="image/png" href="/favicon.ico?v=2">
-
-    <script src="/theme/dist/js/jquery-2x.min.js"></script>
-    <script src="/theme/dist/js/waypoints.min.js"></script>
-    <script src="/theme/dist/js/bootstrap.js"></script>
-    <script src="/theme/dist/js/bxslider/jquery.bxslider.min.js"></script>
-    <script src="/theme/dist/js/jquery.easing.min.js"></script>
-    <script src="/theme/dist/js/jquery.easy-pie-chart.js"></script>
+    <link rel="apple-touch-icon" sizes="60x60" href="/theme/dist/apple-touch-icon-60x60.png?v=2">
+    <link rel="apple-touch-icon" sizes="180x180" href="/theme/dist/apple-touch-icon-180x180.png?v=2">
+    <link rel="icon" type="image/png" href="/theme/dist/android-chrome-192x192.png?v=2" sizes="192x192">
+    <link rel="icon" type="image/png" href="/theme/dist/favicon-32x32.png?v=2?v=2" sizes="32x32">
+    <link rel="icon" type="image/png" href="/theme/dist/favicon-96x96.png?v=2" sizes="96x96">
+    <link rel="icon" type="image/png" href="/theme/dist/favicon-16x16.png?v=2" sizes="16x16">
+    <link rel="icon" type="image/png" href="/theme/dist/favicon.ico?v=2">
+    <!--main scripts-->
     <script src="/theme/dist/js/app.js"></script>
-
     <!--happybrowser-->
     <link href="/happybrowser/happybrowser.css" rel="stylesheet" type="text/css">
     <script src="/happybrowser/bowser.js"></script>
     <script src="/happybrowser/happybrowser-nojquery.js"></script>
-    
     <!-- Custom Fonts -->
     <link href="/theme/dist/fonts/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Halant:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300' rel='stylesheet' type='text/css'>
-    
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <!--site css-->
-    <link rel="stylesheet" href="/theme/dist/css/bootstrap.css">
-
+    <link rel="stylesheet" href="/theme/dist/css/app.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -51,7 +36,7 @@
 
 
 
-  <body class="other">
+  <body class="not-front">
     <!-- Navigation -->
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
@@ -90,8 +75,8 @@
         <h2 class="post-title">Tagged With &ldquo;dev&rdquo;</h2>
 <div class="row">
 <section id="workSection" class="show">
-  <div id="workContent" class="container tagsPage">
-     
+  <div id="workContent" class="tagsPage">
+   
   
   
   
@@ -100,31 +85,20 @@
   
   
   
-      <div id="post1" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post1" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/happybrowser/teaser.jpg" alt="Happy browser"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/happybrowser">+</a>
-            <h2><a  href="/happybrowser" >Happy browser</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-            </ul>          
+            <h2>Happy browser</h2>
+            <p class="hidden-sm">A javascript warning</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Github Repo</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/happybrowser">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -147,52 +121,20 @@
   
   
   
-      <div id="post2" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post2" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/wpbb/teaser.jpg" alt="WP Backbone"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/wordpress-to-backbone">+</a>
-            <h2><a  href="/wordpress-to-backbone" >WP Backbone</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/LESS">LESS</a>
-              </li>
-              <li>
-                <a href="/tag/grunt">grunt</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-              <li>
-                <a href="/tag/backbone">backbone</a>
-              </li>
-              <li>
-                <a href="/tag/node">node</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-            </ul>          
+            <h2>WP Backbone</h2>
+            <p class="hidden-sm">WP data in a BB app.</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Github Repo</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/wordpress-to-backbone">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -217,49 +159,20 @@
   
   
   
-      <div id="post3" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post3" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/shotw/teaser.jpg" alt="ShotWatch"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/shotwatch">+</a>
-            <h2><a  href="/shotwatch" >ShotWatch</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/LESS">LESS</a>
-              </li>
-              <li>
-                <a href="/tag/grunt">grunt</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-              <li>
-                <a href="/tag/backbone">backbone</a>
-              </li>
-              <li>
-                <a href="/tag/node">node</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-            </ul>          
+            <h2>ShotWatch</h2>
+            <p class="hidden-sm">Player shot tracking</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Github Repo</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/shotwatch">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -282,55 +195,20 @@
   
   
   
-      <div id="post4" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post4" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/rfit/teaser.jpg" alt="RatherFit"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/ratherfit">+</a>
-            <h2><a  href="/ratherfit" >RatherFit</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/LESS">LESS</a>
-              </li>
-              <li>
-                <a href="/tag/grunt">grunt</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-              <li>
-                <a href="/tag/backbone">backbone</a>
-              </li>
-              <li>
-                <a href="/tag/node">node</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/responsive">responsive</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-            </ul>          
+            <h2>RatherFit</h2>
+            <p class="hidden-sm">Selective seach for workouts.</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Portland Code School</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/ratherfit">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -453,43 +331,20 @@
   
   
   
-      <div id="post5" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post5" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/mez/teaser.jpg" alt="Mezimbite"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/mezimbite">+</a>
-            <h2><a  href="/mezimbite" >Mezimbite</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/wordpress">wordpress</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/ux-ui">ux-ui</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-            </ul>          
+            <h2>Mezimbite</h2>
+            <p class="hidden-sm">Helping Africa.</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Allan Schwarts</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/mezimbite">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -510,43 +365,20 @@
   
   
   
-      <div id="post6" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post6" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/wisc/teaser.jpg" alt="Wisconsin Splash Page"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/wisconsin-health-reports">+</a>
-            <h2><a  href="/wisconsin-health-reports" >Wisconsin Splash Page</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/wordpress">wordpress</a>
-              </li>
-              <li>
-                <a href="/tag/responsive">responsive</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-            </ul>          
+            <h2>Wisconsin Splash Page</h2>
+            <p class="hidden-sm">high blood pressure</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> WCQH</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/wisconsin-health-reports">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -567,43 +399,20 @@
   
   
   
-      <div id="post7" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post7" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/ssp/teaser.jpg" alt="Stepping Stones"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/stepping-stones">+</a>
-            <h2><a  href="/stepping-stones" >Stepping Stones</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/theme">theme</a>
-              </li>
-              <li>
-                <a href="/tag/wordpress">wordpress</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-            </ul>          
+            <h2>Stepping Stones</h2>
+            <p class="hidden-sm">Retreats for young adults</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Stepping Stones Project</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/stepping-stones">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -624,46 +433,20 @@
   
   
   
-      <div id="post8" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post8" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/qc/teaser.jpg" alt="QCORP"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/qcorp">+</a>
-            <h2><a  href="/qcorp" >QCORP</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/LESS">LESS</a>
-              </li>
-              <li>
-                <a href="/tag/grunt">grunt</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-              <li>
-                <a href="/tag/drupal">drupal</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-            </ul>          
+            <h2>QCORP</h2>
+            <p class="hidden-sm">Information for patients.</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Oregpm Health Care Corporation</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/qcorp">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -720,49 +503,20 @@
   
   
   
-      <div id="post9" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post9" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/lwlc/teaser.jpg" alt="Tutoring and SAT prep"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/lifeworks-learning-center">+</a>
-            <h2><a  href="/lifeworks-learning-center" >Tutoring and SAT prep</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/wordpress">wordpress</a>
-              </li>
-              <li>
-                <a href="/tag/responsive">responsive</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-            </ul>          
+            <h2>Tutoring and SAT prep</h2>
+            <p class="hidden-sm">Tutoring</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Lifeworks Learning Center</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/lifeworks-learning-center">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -833,40 +587,20 @@
   
   
   
-      <div id="post10" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post10" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/aschool/teaser.jpg" alt="Adventure School"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/the-adventure-school">+</a>
-            <h2><a  href="/the-adventure-school" >Adventure School</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/eCommerce">eCommerce</a>
-              </li>
-              <li>
-                <a href="/tag/prestashop">prestashop</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-            </ul>          
+            <h2>Adventure School</h2>
+            <p class="hidden-sm">An Online Boutique</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> The Adventure School</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/the-adventure-school">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -881,43 +615,20 @@
   
   
   
-      <div id="post11" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post11" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/bf/teaser.jpg" alt="Project Management"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/barry-flicker">+</a>
-            <h2><a  href="/barry-flicker" >Project Management</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/wordpress">wordpress</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-            </ul>          
+            <h2>Project Management</h2>
+            <p class="hidden-sm">Real World Consulting</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Barry Flicker Consulting</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/barry-flicker">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -950,37 +661,20 @@
   
   
   
-      <div id="post12" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post12" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/sp/teaser.jpg" alt="Sun-Plugged"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/squishymedia">+</a>
-            <h2><a  href="/squishymedia" >Sun-Plugged</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/prestashop">prestashop</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-            </ul>          
+            <h2>Sun-Plugged</h2>
+            <p class="hidden-sm">Solar Backpacks</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Sun-Plugged Solar</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/squishymedia">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -1005,46 +699,20 @@
   
   
   
-      <div id="post13" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post13" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/serv/teaser.jpg" alt="Servino"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/servino">+</a>
-            <h2><a  href="/servino" >Servino</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/LESS">LESS</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-              <li>
-                <a href="/tag/wordpress">wordpress</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-            </ul>          
+            <h2>Servino</h2>
+            <p class="hidden-sm">A Restaurant</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Servino</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/servino">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -1067,37 +735,20 @@
   
   
   
-      <div id="post14" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post14" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/jms/teaser.jpg" alt="Artist Portfolio"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/joshua-martin-saunders">+</a>
-            <h2><a  href="/joshua-martin-saunders" >Artist Portfolio</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-            </ul>          
+            <h2>Artist Portfolio</h2>
+            <p class="hidden-sm">An artist site</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Joshua Martin Saunders</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/joshua-martin-saunders">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -1118,46 +769,20 @@
   
   
   
-      <div id="post15" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post15" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/sg101/teaser.jpg" alt="Smartgadgets 101"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/smartgadgets-101">+</a>
-            <h2><a  href="/smartgadgets-101" >Smartgadgets 101</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/LESS">LESS</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-              <li>
-                <a href="/tag/wordpress">wordpress</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-            </ul>          
+            <h2>Smartgadgets 101</h2>
+            <p class="hidden-sm">A blog for smartphones.</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Smartgadgets 101</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/smartgadgets-101">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -1188,37 +813,20 @@
   
   
   
-      <div id="post16" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post16" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/adm/teaser.jpg" alt="ADM Health"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/adm-site">+</a>
-            <h2><a  href="/adm-site" >ADM Health</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/wordpress">wordpress</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-            </ul>          
+            <h2>ADM Health</h2>
+            <p class="hidden-sm">EMR Report Purchasing</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Advanced Data Management</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/adm-site">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -1235,37 +843,20 @@
   
   
   
-      <div id="post17" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post17" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/cc/teaser.jpg" alt="Clothing Boutique"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/cloth-and-crown">+</a>
-            <h2><a  href="/cloth-and-crown" >Clothing Boutique</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap">bootstrap</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-            </ul>          
+            <h2>Clothing Boutique</h2>
+            <p class="hidden-sm">A Clothing Boutique</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Cloth and crown</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/cloth-and-crown">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -1288,46 +879,20 @@
   
   
   
-      <div id="post18" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post18" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/lylac/teaser.jpg" alt="Free Wordpress Theme"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/lylac-free-theme">+</a>
-            <h2><a  href="/lylac-free-theme" >Free Wordpress Theme</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/theme">theme</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/blueprint.css">blueprint.css</a>
-              </li>
-            </ul>          
+            <h2>Free Wordpress Theme</h2>
+            <p class="hidden-sm">A free static site</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> lylac</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/lylac-free-theme">View</a>
           </figcaption>     
         </figure>
       </div>
-      </div>
   
   
   
@@ -1344,42 +909,19 @@
   
   
   
-      <div id="post19" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
-        <div class="grid">
-        <figure class="effect-bubba site ">
+      <div id="post19" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+        <figure class="site ">
           <img src="/post-images/simplem/teaser.jpg" alt="Simple Minimal"/>
           <figcaption>
-            <span class="postType">site</span>
-            <a  class="view-post" href="/simple-minimal">+</a>
-            <h2><a  href="/simple-minimal" >Simple Minimal</a></h2>
-            <p class="visible-sp visible-md">tags:</p>
-            <ul class="nav nav-pills nav-tags visible-sp visible-md">
-              
-              <li>
-                <a href="/tag/all">all</a>
-              </li>
-              <li>
-                <a href="/tag/fed">fed</a>
-              </li>
-              <li>
-                <a href="/tag/theme">theme</a>
-              </li>
-              <li>
-                <a href="/tag/design">design</a>
-              </li>
-              <li>
-                <a href="/tag/dev">dev</a>
-              </li>
-              <li>
-                <a href="/tag/bootstrap.css">bootstrap.css</a>
-              </li>
-              <li>
-                <a href="/tag/ux/ui">ux/ui</a>
-              </li>
-            </ul>          
+            <h2>Simple Minimal</h2>
+            <p class="hidden-sm">A Free Wordpress design</p>
+            <div class="clearfix">
+              <small class="client"><span>Client:</span> Personal</small>
+              <small class="postType">site</small>
+            </div>
+            <a  class="view-post" href="/simple-minimal">View</a>
           </figcaption>     
         </figure>
-      </div>
       </div>
   
   
