@@ -6,9 +6,28 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Sep 2015 17:26:55 -0700</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2015 17:26:55 -0700</lastBuildDate>
+    <pubDate>Sat, 19 Sep 2015 00:39:24 -0700</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2015 00:39:24 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Stanford CRN</title>
+        <description>&lt;p&gt;Stanford Center for Reproducible Neuroscience wanted an app for uploading large datasets, so doctors can collaborate and share MFRI data. This is a diagram for our suggested data flow.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Mar 2015 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/crn-app-workflow</link>
+        <guid isPermaLink="true">http://localhost:4000/crn-app-workflow</guid>
+        
+        <category>all</category>
+        
+        <category>design</category>
+        
+        
+        <category>all</category>
+        
+        <category>design</category>
+        
+      </item>
     
       <item>
         <title>Happy browser</title>
@@ -280,39 +299,6 @@
         <category>all</category>
         
         <category>site</category>
-        
-      </item>
-    
-      <item>
-        <title>Bike to Work</title>
-        <description>&lt;p&gt;Bike to Work Day is a site for coordinating 20,000+ bikers, routes, and meet-ups for the Denver/Boulder area.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 May 2014 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/bike-to-work</link>
-        <guid isPermaLink="true">http://localhost:4000/bike-to-work</guid>
-        
-        <category>all</category>
-        
-        <category>grunt</category>
-        
-        <category>drupal</category>
-        
-        <category>bootstrap</category>
-        
-        <category>LESS</category>
-        
-        <category>responsive</category>
-        
-        <category>ux/ui</category>
-        
-        <category>fed</category>
-        
-        
-        <category>all</category>
-        
-        <category>site</category>
-        
-        <category>design</category>
         
       </item>
     
