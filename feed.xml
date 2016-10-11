@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Oct 2016 23:06:27 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2016 23:06:27 -0700</lastBuildDate>
+    <pubDate>Tue, 11 Oct 2016 10:45:17 -0700</pubDate>
+    <lastBuildDate>Tue, 11 Oct 2016 10:45:17 -0700</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
@@ -17,8 +17,6 @@
         <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/snaplist</link>
         <guid isPermaLink="true">http://localhost:4000/snaplist</guid>
-        
-        <category>all</category>
         
         <category>sass</category>
         
@@ -53,8 +51,6 @@
         <link>http://localhost:4000/teacher-incentive-fund</link>
         <guid isPermaLink="true">http://localhost:4000/teacher-incentive-fund</guid>
         
-        <category>all</category>
-        
         <category>LESS</category>
         
         <category>grunt</category>
@@ -86,8 +82,6 @@
         <link>http://localhost:4000/crn-app-workflow</link>
         <guid isPermaLink="true">http://localhost:4000/crn-app-workflow</guid>
         
-        <category>all</category>
-        
         <category>design</category>
         
         
@@ -104,8 +98,6 @@
         <pubDate>Sat, 10 Jan 2015 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/global-health-elearning</link>
         <guid isPermaLink="true">http://localhost:4000/global-health-elearning</guid>
-        
-        <category>all</category>
         
         <category>SASS</category>
         
@@ -135,8 +127,6 @@
         <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/ratherfit</link>
         <guid isPermaLink="true">http://localhost:4000/ratherfit</guid>
-        
-        <category>all</category>
         
         <category>LESS</category>
         
@@ -177,8 +167,6 @@
         <link>http://localhost:4000/bcbsma</link>
         <guid isPermaLink="true">http://localhost:4000/bcbsma</guid>
         
-        <category>all</category>
-        
         <category>design</category>
         
         
@@ -195,8 +183,6 @@
         <pubDate>Sat, 03 May 2014 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/way-to-go</link>
         <guid isPermaLink="true">http://localhost:4000/way-to-go</guid>
-        
-        <category>all</category>
         
         <category>grunt</category>
         
@@ -231,8 +217,6 @@
         <link>http://localhost:4000/start2farm-usda</link>
         <guid isPermaLink="true">http://localhost:4000/start2farm-usda</guid>
         
-        <category>all</category>
-        
         <category>grunt</category>
         
         <category>drupal</category>
@@ -261,8 +245,6 @@
         <pubDate>Fri, 02 May 2014 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/drcog</link>
         <guid isPermaLink="true">http://localhost:4000/drcog</guid>
-        
-        <category>all</category>
         
         <category>grunt</category>
         
@@ -296,8 +278,6 @@
         <pubDate>Thu, 01 May 2014 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/bike-to-work</link>
         <guid isPermaLink="true">http://localhost:4000/bike-to-work</guid>
-        
-        <category>all</category>
         
         <category>grunt</category>
         
