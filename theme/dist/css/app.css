@@ -9745,16 +9745,6 @@ div.no-pad {
   position: relative;
   border: 1px solid rgba(21, 43, 61, 0.25);
 }
-.siteblock .grid figure img {
-  -ms-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -ms-transform: translateZ(0) scale(1, 1);
-  -webkit-transform: translateZ(0) scale(1, 1);
-  transform: translateZ(0) scale(1, 1);
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
 .siteblock .grid figure .postType {
   -webkit-transform: translatex(100px);
   -ms-transform: translatex(100px);
@@ -9818,12 +9808,6 @@ div.no-pad {
   display: block;
   float: left;
   width: 70%;
-}
-.siteblock .grid figure:hover img {
-  opacity: 0.9;
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
 .siteblock .grid figure:hover figcaption {
   bottom: 0;
@@ -9897,14 +9881,12 @@ div.no-pad {
   border: 20px solid #fff;
 }
 #contact {
-  background: url(../img/contact2.jpg) no-repeat;
+  background: url(../img/contact2.jpg) no-repeat 130% 0;
   background-color: #eaedee;
   background-size: 1050px auto;
   min-height: 370px;
   width: 100%;
   padding: 30px 0 0;
-  background-position-x: 100%;
-  background-position-y: 0%;
 }
 #contact h2 {
   color: #3f3f3f;
@@ -10034,15 +10016,7 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
 }
-@media (min-width: 1050px) {
-  #contact {
-    background-position-x: 150%;
-  }
-}
 @media (max-width: 1051px) {
-  #contact {
-    background-position-x: 160px;
-  }
   #contact .bio span,
   #contact .bio a {
     font-size: 16px;

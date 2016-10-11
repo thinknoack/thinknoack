@@ -538,16 +538,16 @@ div.no-pad{
             position: relative;
             border: 1px solid fade(@secondary, 25%);
 
-            img{
-                -ms-backface-visibility: hidden;
-                -webkit-backface-visibility: hidden;
-                backface-visibility: hidden;
-                -ms-transform:translateZ(0) scale(1.0, 1.0);
-                -webkit-transform:translateZ(0) scale(1.0, 1.0);
-                transform:translateZ(0) scale(1.0, 1.0);
-                -webkit-transition: .5s ease-in-out;
-                transition: .5s ease-in-out;
-            }
+            // img{
+            //     -ms-backface-visibility: hidden;
+            //     -webkit-backface-visibility: hidden;
+            //     backface-visibility: hidden;
+            //     -ms-transform:translateZ(0) scale(1.0, 1.0);
+            //     -webkit-transform:translateZ(0) scale(1.0, 1.0);
+            //     transform:translateZ(0) scale(1.0, 1.0);
+            //     -webkit-transition: .5s ease-in-out;
+            //     transition: .5s ease-in-out;
+            // }
             .postType{
                 -webkit-transform:translatex(100px);
                 -ms-transform:translatex(100px);
@@ -616,12 +616,12 @@ div.no-pad{
                 }
             }
             &:hover {
-                img{
-                    opacity: 0.9;
-                    -ms-transform:scale(1.1);
-                    -webkit-transform:scale(1.1);
-                    transform:scale(1.1);
-                }
+                //img{
+                //     opacity: 0.9;
+                //     -ms-transform:scale(1.1);
+                //     -webkit-transform:scale(1.1);
+                //     transform:scale(1.1);
+                // }
 
                 figcaption{
                     bottom: 0;
@@ -709,14 +709,12 @@ div.no-pad{
 
 //contact
 #contact{
-    background: url(../img/contact2.jpg) no-repeat;
+    background: url(../img/contact2.jpg) no-repeat 130% 0;
     background-color: #eaedee;
     background-size: 1050px auto;
     min-height: 370px;
     width: 100%;
     padding: 30px 0 0;
-    background-position-x: 100%;
-    background-position-y: 0%;
 
     h2{
         color: @darkGray;
@@ -858,16 +856,9 @@ body {
     -webkit-tap-highlight-color: fade(@dark, 20%);
 }
 
-@media(min-width:1050px){
-    #contact{
-       background-position-x: 150%;
-    }
-}
+
 
 @media(max-width:1051px){
-    #contact{
-       background-position-x: 160px;
-    }
     #contact .bio {
       span,
       a{
