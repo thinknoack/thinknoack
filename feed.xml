@@ -6,9 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 21 Jul 2017 14:38:54 -0700</pubDate>
-    <lastBuildDate>Fri, 21 Jul 2017 14:38:54 -0700</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Thu, 27 Jul 2017 10:22:17 -0700</pubDate>
+    <lastBuildDate>Thu, 27 Jul 2017 10:22:17 -0700</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
     
       <item>
         <title>OpenNeuro</title>
