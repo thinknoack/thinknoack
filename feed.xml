@@ -4,10 +4,10 @@
     <title>Thinknoack</title>
     <description>My Name is Gregory Noack, I am a front end developer, and this is my portfolio.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 27 Jul 2017 10:22:17 -0700</pubDate>
-    <lastBuildDate>Thu, 27 Jul 2017 10:22:17 -0700</lastBuildDate>
+    <link>http://thinknoack.com/</link>
+    <atom:link href="http://thinknoack.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 27 Jul 2017 10:33:09 -0700</pubDate>
+    <lastBuildDate>Thu, 27 Jul 2017 10:33:09 -0700</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>&lt;p&gt;A data-management platform to help the best minds share their brains. It validates your dataset on upload, allows users to share and collaborate through versioning, and utilizes powerful super computers in texas  to run analysis on mFRI datasets. This site is launching soon!&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jun 2016 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/openneuro</link>
-        <guid isPermaLink="true">http://localhost:4000/openneuro</guid>
+        <link>http://thinknoack.com/openneuro</link>
+        <guid isPermaLink="true">http://thinknoack.com/openneuro</guid>
         
         <category>sass</category>
         
@@ -48,8 +48,8 @@
         <description>&lt;p&gt;Snap some lists! I created this to test out react.js client using a heroku api.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/snaplist</link>
-        <guid isPermaLink="true">http://localhost:4000/snaplist</guid>
+        <link>http://thinknoack.com/snaplist</link>
+        <guid isPermaLink="true">http://thinknoack.com/snaplist</guid>
         
         <category>sass</category>
         
@@ -81,8 +81,8 @@
         <description>&lt;p&gt;TIF supports projects in developing and implementing an integrated Human Capital Management System to increase educator effectiveness and student achievement in high-need schools. This drupal site allows the community to manage all types for resources, notifications, tickets, and grantee information.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/teacher-incentive-fund</link>
-        <guid isPermaLink="true">http://localhost:4000/teacher-incentive-fund</guid>
+        <link>http://thinknoack.com/teacher-incentive-fund</link>
+        <guid isPermaLink="true">http://thinknoack.com/teacher-incentive-fund</guid>
         
         <category>LESS</category>
         
@@ -112,8 +112,8 @@
         <description>&lt;p&gt;To help students understand how U.S colleges compare by cost, graduation rate, and average salary, we developed an interactive college scorecard. We used the U.S Department of Education’s College Scorecard data to help students visually understand how their college or university system compared, providing a “big picture” of available choices.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/scorecard</link>
-        <guid isPermaLink="true">http://localhost:4000/scorecard</guid>
+        <link>http://thinknoack.com/scorecard</link>
+        <guid isPermaLink="true">http://thinknoack.com/scorecard</guid>
         
         <category>sass</category>
         
@@ -139,8 +139,8 @@
         <description>&lt;p&gt;Stanford Center for Reproducible Neuroscience wanted an app for uploading large datasets, so scientist can collaborate and share mFRI data. This is a diagram for our suggested data flow for the web application we are building.&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 Mar 2015 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/crn-app-workflow</link>
-        <guid isPermaLink="true">http://localhost:4000/crn-app-workflow</guid>
+        <link>http://thinknoack.com/crn-app-workflow</link>
+        <guid isPermaLink="true">http://thinknoack.com/crn-app-workflow</guid>
         
         <category>design</category>
         
@@ -156,8 +156,8 @@
         <description>&lt;p&gt;Meeting the learning needs of  leaders and experts in the USAID health sector. GHEL provides its worldwide mission-based health staff with access to state of the art technical global health information. I was responsible for updating code, fixing bugs, course updates, and User Experience improvements.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/global-health-elearning</link>
-        <guid isPermaLink="true">http://localhost:4000/global-health-elearning</guid>
+        <link>http://thinknoack.com/global-health-elearning</link>
+        <guid isPermaLink="true">http://thinknoack.com/global-health-elearning</guid>
         
         <category>SASS</category>
         
@@ -185,8 +185,8 @@
         <description>&lt;p&gt;Synapse works with the world’s leading companies to create products and experiences that change the way we live.&lt;/p&gt;
 </description>
         <pubDate>Sun, 30 Nov 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/synapse</link>
-        <guid isPermaLink="true">http://localhost:4000/synapse</guid>
+        <link>http://thinknoack.com/synapse</link>
+        <guid isPermaLink="true">http://thinknoack.com/synapse</guid>
         
         <category>fed</category>
         
@@ -212,8 +212,8 @@
         <description>&lt;p&gt;I took a class on Backbone and Node, this was my final project. It asks a few basic questions and provides workout videos, limiting results to preselected selected channels, via the Youtube API.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/ratherfit</link>
-        <guid isPermaLink="true">http://localhost:4000/ratherfit</guid>
+        <link>http://thinknoack.com/ratherfit</link>
+        <guid isPermaLink="true">http://thinknoack.com/ratherfit</guid>
         
         <category>LESS</category>
         
@@ -251,8 +251,8 @@
         <description>&lt;p&gt;Update to the BCBS Massachusetts health care delivery system map. Massachusetts has 15 major hospital systems, 64 acute hospitals, 55 community health centers, 9 provider networks, and 169 major medical groups. The map would allow a user to explore the relationships between HEALTH CARE PROVIDERS and PROVIDER GROUPS in the Commonwealth.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 May 2014 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/bcbsma</link>
-        <guid isPermaLink="true">http://localhost:4000/bcbsma</guid>
+        <link>http://thinknoack.com/bcbsma</link>
+        <guid isPermaLink="true">http://thinknoack.com/bcbsma</guid>
         
         <category>design</category>
         
@@ -268,8 +268,8 @@
         <description>&lt;p&gt;Way to Go is a regional partnership between the Denver Regional Council of Governments (DRCOG) and a dedicated group of Transportation Management Associations (TMAs). They work together to reduce traffic congestion, improve air quality, and make life better for the residents of Denver.&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 May 2014 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/way-to-go</link>
-        <guid isPermaLink="true">http://localhost:4000/way-to-go</guid>
+        <link>http://thinknoack.com/way-to-go</link>
+        <guid isPermaLink="true">http://thinknoack.com/way-to-go</guid>
         
         <category>grunt</category>
         
